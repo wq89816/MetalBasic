@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9AE3F0AB24F54B4200EDB980 /* MetalBasicBuffers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalBasicBuffers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE3F0AB24F54B4200EDB980 /* MetalBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE3F0AE24F54B4200EDB980 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AE3F0AF24F54B4200EDB980 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9AE3F0B424F54B4200EDB980 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		9AE3F0AC24F54B4200EDB980 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AE3F0AB24F54B4200EDB980 /* MetalBasicBuffers.app */,
+				9AE3F0AB24F54B4200EDB980 /* MetalBasic.app */,
 				9AE3F0C624F54B4500EDB980 /* MetalBasicBuffersTests.xctest */,
 				9AE3F0D124F54B4500EDB980 /* MetalBasicBuffersUITests.xctest */,
 			);
@@ -179,7 +179,7 @@
 			);
 			name = MetalBasicBuffers;
 			productName = MetalBasicBuffers;
-			productReference = 9AE3F0AB24F54B4200EDB980 /* MetalBasicBuffers.app */;
+			productReference = 9AE3F0AB24F54B4200EDB980 /* MetalBasic.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9AE3F0C524F54B4500EDB980 /* MetalBasicBuffersTests */ = {
@@ -474,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotoneaudio.MetalBasicBuffers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MetalBasic;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -492,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotoneaudio.MetalBasicBuffers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MetalBasic;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -91,7 +91,7 @@
     CGContextTranslateCTM(spriteContext, -rect.origin.x, -rect.origin.y);
     CGContextDrawImage(spriteContext, rect, spriteImage);
 
-        //7.释放spriteContext
+        //7._
     CGContextRelease(spriteContext);
 
     return spriteData;
@@ -112,13 +112,6 @@
         //3.使用描述符从设备中创建纹理
     _texture = [_device newTextureWithDescriptor:textureDescriptor];
 
-    /*
-     typedef struct
-     {
-     MTLOrigin origin; //开始位置x,y,z
-     MTLSize   size; //尺寸width,height,depth
-     } MTLRegion;
-     */
         //MLRegion结构用于标识纹理的特定区域。 demo使用图像数据填充整个纹理；因此，覆盖整个纹理的像素区域等于纹理的尺寸。
         //4. 创建MTLRegion 结构体  [纹理上传的范围]
     MTLRegion region = {{ 0, 0, 0 }, {image.size.width, image.size.height, 1}};

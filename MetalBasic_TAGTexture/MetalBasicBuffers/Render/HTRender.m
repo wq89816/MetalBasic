@@ -21,7 +21,7 @@
     //命令队列
     id<MTLCommandQueue> _commandQueue;
 
-    //点点缓存区
+    //顶点缓存区
     id<MTLBuffer> _vertexBuffer;
 
         // Metal 纹理对象
